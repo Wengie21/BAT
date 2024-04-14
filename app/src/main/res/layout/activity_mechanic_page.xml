@@ -13,13 +13,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="20dp"
         android:background="#00FFFFFF"
         android:fontFamily="@font/quicksand"
         android:text="Mechanic Details"
         android:textColor="#FFD600"
         android:textSize="40dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
 
     <ImageView
         android:id="@+id/imageView"
@@ -97,14 +98,17 @@
         android:textColor="#F6F6F6"
         android:textSize="25dp" />
 
-    <androidx.appcompat.widget.SwitchCompat
+    <Button
+        android:id="@+id/payBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textOff="off"
-        android:textOn="on"
-        android:thumb="@drawable/thumb"
-        app:showText="true"
-        android:layout_marginTop="5dp"
-        app:track="@drawable/track" />
+        android:layout_marginTop="20dp"
+        android:text="Release payment"
+        android:backgroundTint="#03C04A"
+        android:textSize="20sp"
+        android:fontFamily="@font/quicksand"
+        android:textStyle="bold" />
+
+
 </LinearLayout>
